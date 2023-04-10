@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+        <audio id="trueAudio">
+            <source src="./audio/true.mp3" type="audio/mpeg">
+        </audio>
+        <audio id="falseAudio">
+            <source src="./audio/false.mp3" type="audio/mpeg">
+        </audio>
+        <audio id="bg">
+            <source src="./audio/relax.mp3" type="audio/mpeg">
+        </audio>
+
+
+
+
+
+    <div class="header_logo">
+        <div class="container_logo">
+            <div class="logo">HANGMAN</div>
+            <div class="logo2">80's style</div>
+        </div>
+    </div>
+    
+    <div class="marka">Type car model...(For example: mercedes)</div>
+    <div class="container">
+        <div class="cont">
+            <div class="sol a">
+                <div class="img">
+                    <img class="photo" src="./images/question.png">
+                </div>
+            </div>
+            <div class="sag a">
+                <div class="head">Press any key to get started</div>
+                <div class="winLose">
+                    <div class="win1">
+                        <div class="wins">WINS</div>
+                        <div class="score">0</div>
+                    </div>
+                    <div class="lose1">
+                        <div class="lose">LOSE</div>
+                        <div class="losescore">0</div>
+                    </div>
+                </div>
+                
+                <div class="currentword">Current Word</div>
+                <div class="current"></div>
+                <div class="remaining_title">Number of guesses remaining</div>
+                <div class="remaining">9</div>
+                <div class="already_title">Letters already guessed</div>
+                <div class="already"></div>
+            </div>
+            
+        </div>
+        
+    </div>
+    <div class="mediacont">
+        <button onclick="playAudio()" type="button">Play Audio</button>
+        <button onclick="pauseAudio()" type="button">Pause Audio</button>
+    </div>
+    
+    
+
+
+
+
+
+
+
+
+    <script src="./js.js"></script>
+</body>
+</html>

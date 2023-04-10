@@ -1,0 +1,153 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+}
+@font-face {
+    font-family: 'coda';
+    src: url(./font/Coda/Coda.ttf);
+}
+
+@font-face {
+    font-family: 'marker';
+    src: url(./font/PermanentMarker-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'type';
+    src: url(./font/Courgette-Regular.ttf);
+}
+.header_logo{
+    position: relative;
+    box-sizing: border-box;
+}
+.container_logo{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    box-sizing: border-box;
+}
+.logo{
+    text-align: center;
+    color: white;
+    font-size: 6em;
+    background: linear-gradient(to right,blue,red,darkgreen);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-family: coda;
+}
+
+.logo2{
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    transform: rotate(-20deg);
+    color: white;
+    font-family: marker;
+    font-size: 4.5em;
+    background: rgb(143, 2, 148);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    text-shadow: 3px 3px 1px;
+    
+}
+.marka{
+    margin-top: 100px;
+    text-align: center;
+    font-family: type;
+    margin-bottom: 15px;
+    font-size: 1.5em;
+}
+
+.container{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: flex-start;
+}
+.cont{
+    display: flex;
+
+}
+
+.a{
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 3px dotted white;
+    font-family: type;
+    text-align: center;
+}
+
+.sol{
+    display: flex;
+    justify-content: center;
+    
+}
+img{
+    width: 90%;
+    
+}
+.sag{
+    
+    
+}
+
+.head{
+    margin-top: 10px;
+}
+
+
+.currentword{
+    margin-top: 20px;
+}
+.remaining_title{
+    margin-top: 10px;
+}
+
+.remaining{
+    margin-top: 10px;
+}
+.already{
+    margin-top: 10px;
+}
+
+.winLose{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.win1, .lose1{
+    width: 50%;
+}
+
+.win1{
+    color: greenyellow;
+}
+.lose1{
+    color: rgb(248, 38, 38);
+}
+
+.mediacont{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+button{
+    width: 100px;
+    text-align: center;
+    background-color: rosybrown;
+    margin: 5px;
+    border-radius: 5px;
+    color: darkblue;
+    font-weight: bold;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
